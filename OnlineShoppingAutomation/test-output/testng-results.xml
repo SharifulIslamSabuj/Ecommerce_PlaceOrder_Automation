@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Place Order Suite" duration-ms="163377" started-at="2023-10-09T00:00:39 BDT" finished-at="2023-10-09T00:03:22 BDT">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="163377" started-at="2023-10-09T00:00:39 BDT" finished-at="2023-10-09T00:03:22 BDT">
+      <class name="Ecommerce.OnlineShoppingAutomation.EcommerceAutomation">
+        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:Ecommerce.OnlineShoppingAutomation.EcommerceAutomation@17579e0f]" name="LaunchBrowser" is-config="true" duration-ms="11985" started-at="2023-10-09T00:00:39 BDT" finished-at="2023-10-09T00:00:51 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method status="PASS" signature="VerifyHomePage()[pri:1, instance:Ecommerce.OnlineShoppingAutomation.EcommerceAutomation@17579e0f]" name="VerifyHomePage" duration-ms="42346" started-at="2023-10-09T00:00:51 BDT" finished-at="2023-10-09T00:01:33 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyHomePage -->
+        <test-method status="PASS" signature="VerifyCartPage()[pri:2, instance:Ecommerce.OnlineShoppingAutomation.EcommerceAutomation@17579e0f]" name="VerifyCartPage" duration-ms="12541" started-at="2023-10-09T00:01:33 BDT" finished-at="2023-10-09T00:01:46 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyCartPage -->
+        <test-method status="PASS" signature="VerifyAccountCreated()[pri:3, instance:Ecommerce.OnlineShoppingAutomation.EcommerceAutomation@17579e0f]" name="VerifyAccountCreated" duration-ms="15386" started-at="2023-10-09T00:01:46 BDT" finished-at="2023-10-09T00:02:01 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAccountCreated -->
+        <test-method status="PASS" signature="VerifyLoggedInAsUsername()[pri:4, instance:Ecommerce.OnlineShoppingAutomation.EcommerceAutomation@17579e0f]" name="VerifyLoggedInAsUsername" duration-ms="33657" started-at="2023-10-09T00:02:01 BDT" finished-at="2023-10-09T00:02:35 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLoggedInAsUsername -->
+        <test-method status="PASS" signature="VerifyAddressAndOrder()[pri:5, instance:Ecommerce.OnlineShoppingAutomation.EcommerceAutomation@17579e0f]" name="VerifyAddressAndOrder" duration-ms="20515" started-at="2023-10-09T00:02:35 BDT" finished-at="2023-10-09T00:02:55 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAddressAndOrder -->
+        <test-method status="PASS" signature="VerifyPlaceOrderSuccessMessage()[pri:6, instance:Ecommerce.OnlineShoppingAutomation.EcommerceAutomation@17579e0f]" name="VerifyPlaceOrderSuccessMessage" duration-ms="21467" started-at="2023-10-09T00:02:55 BDT" finished-at="2023-10-09T00:03:17 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyPlaceOrderSuccessMessage -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:Ecommerce.OnlineShoppingAutomation.EcommerceAutomation@17579e0f]" name="CloseBrowser" is-config="true" duration-ms="5348" started-at="2023-10-09T00:03:17 BDT" finished-at="2023-10-09T00:03:22 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- Ecommerce.OnlineShoppingAutomation.EcommerceAutomation -->
+    </test> <!-- Test -->
+  </suite> <!-- Place Order Suite -->
+</testng-results>
