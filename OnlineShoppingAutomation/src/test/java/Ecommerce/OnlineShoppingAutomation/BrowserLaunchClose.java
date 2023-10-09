@@ -11,9 +11,9 @@ static WebDriver driver;
 	//1. Launch browser(Google Chrome/FireFox)
 	@BeforeTest
 	public void LaunchBrowser() {
-	//System.setProperty("webdriver.chrome.driver", "..//selenium//Drivers//chromedriver.exe");
+	//System.setProperty("webdriver.chrome.driver", "..//OnlineShoppingAutomation//Drivers//chromedriver.exe");
 	//driver =new ChromeDriver();
-	System.setProperty("webdriver.gecko.driver", "..//selenium//Drivers//geckodriver.exe");
+	System.setProperty("webdriver.gecko.driver", "..//OnlineShoppingAutomation//Drivers//geckodriver.exe");
 	driver =new FirefoxDriver();
 	driver.manage().window().maximize();
 	}

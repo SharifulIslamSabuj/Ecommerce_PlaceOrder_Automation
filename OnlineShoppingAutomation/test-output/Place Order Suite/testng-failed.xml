@@ -7,6 +7,7 @@
         <methods>
           <include name="CloseBrowser"/>
           <include name="VerifyLoggedInAsUsername"/>
+          <include name="VerifyAccountCreated"/>
           <include name="VerifyAddressAndOrder"/>
           <include name="VerifyPlaceOrderSuccessMessage"/>
           <include name="LaunchBrowser"/>

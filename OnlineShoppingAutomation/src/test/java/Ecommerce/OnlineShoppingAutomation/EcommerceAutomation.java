@@ -42,7 +42,7 @@ public class EcommerceAutomation extends BrowserLaunchClose {
 	//9. Fill all details in Sign up and create account
 	
 	driver.findElement(By.xpath("//*[@id=\"form\"]/div/div/div[3]/div/form/input[2]")).sendKeys("TestName12");
-	driver.findElement(By.xpath("//*[@id=\"form\"]/div/div/div[3]/div/form/input[3]")).sendKeys("test1019@gmail.com");
+	driver.findElement(By.xpath("//*[@id=\"form\"]/div/div/div[3]/div/form/input[3]")).sendKeys("test1021@gmail.com");
 	driver.findElement(By.xpath("//*[@id=\"form\"]/div/div/div[3]/div/form/button")).click();
 	
 	//Putting Sign up detail info
