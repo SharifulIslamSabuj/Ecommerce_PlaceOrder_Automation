@@ -2,14 +2,16 @@ package Ecommerce.OnlineShoppingAutomation;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
+import org.testng.annotations.AfterClass;
+//import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeClass;
+//import org.testng.annotations.BeforeTest;
 
 public class BrowserLaunchClose {
 static WebDriver driver;
 	
 	//1. Launch browser(Google Chrome/FireFox)
-	@BeforeTest
+	@BeforeClass
 	public void LaunchBrowser() {
 	//System.setProperty("webdriver.chrome.driver", "..//OnlineShoppingAutomation//Drivers//chromedriver.exe");
 	//driver =new ChromeDriver();
@@ -18,7 +20,7 @@ static WebDriver driver;
 	driver.manage().window().maximize();
 	}
 	
-	@AfterTest
+	@AfterClass
 	public void CloseBrowser() {
 		
 		driver.close();

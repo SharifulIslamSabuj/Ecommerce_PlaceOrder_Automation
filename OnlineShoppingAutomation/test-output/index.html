@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Place_Order_Suite">
-              <span class="suite-name border-passed">Place Order Suite</span>
+              <span class="suite-name border-failed">Place Order Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,7 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">6 methods,   6 passed</span>
+                    <span class="method-stats">6 methods, 1 failed,   5 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Place_Order_Suite" class="hide-methods failed suite-Place_Order_Suite"> (hide)</a> <!-- hide-methods failed suite-Place_Order_Suite -->
+                      <a href="#" panel-name="suite-Place_Order_Suite" class="show-methods failed suite-Place_Order_Suite"> (show)</a> <!-- show-methods failed suite-Place_Order_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Place_Order_Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Place_Order_Suite" title="Ecommerce.OnlineShoppingAutomation.SignUpPage" hash-for-method="VerifyAccountCreated">VerifyAccountCreated</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Place_Order_Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,32 +116,27 @@
                     <div class="method-list-content passed suite-Place_Order_Suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Place_Order_Suite" title="Ecommerce.OnlineShoppingAutomation.EcommerceAutomation" hash-for-method="VerifyAccountCreated">VerifyAccountCreated</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Place_Order_Suite" title="Ecommerce.OnlineShoppingAutomation.ReviewAddressAndOrderDetails" hash-for-method="VerifyAddressAndOrder">VerifyAddressAndOrder</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Place_Order_Suite" title="Ecommerce.OnlineShoppingAutomation.EcommerceAutomation" hash-for-method="VerifyAddressAndOrder">VerifyAddressAndOrder</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Place_Order_Suite" title="Ecommerce.OnlineShoppingAutomation.CartPageDisplay" hash-for-method="VerifyCartPage">VerifyCartPage</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Place_Order_Suite" title="Ecommerce.OnlineShoppingAutomation.EcommerceAutomation" hash-for-method="VerifyCartPage">VerifyCartPage</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Place_Order_Suite" title="Ecommerce.OnlineShoppingAutomation.HomePageVisibility" hash-for-method="VerifyHomePageVisibility">VerifyHomePageVisibility</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Place_Order_Suite" title="Ecommerce.OnlineShoppingAutomation.EcommerceAutomation" hash-for-method="VerifyHomePage">VerifyHomePage</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Place_Order_Suite" title="Ecommerce.OnlineShoppingAutomation.SignInPage" hash-for-method="VerifyLoggedInAsUsername">VerifyLoggedInAsUsername</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Place_Order_Suite" title="Ecommerce.OnlineShoppingAutomation.EcommerceAutomation" hash-for-method="VerifyLoggedInAsUsername">VerifyLoggedInAsUsername</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Place_Order_Suite" title="Ecommerce.OnlineShoppingAutomation.EcommerceAutomation" hash-for-method="VerifyPlaceOrderSuccessMessage">VerifyPlaceOrderSuccessMessage</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Place_Order_Suite" title="Ecommerce.OnlineShoppingAutomation.PlaceOrderSuccessfulMessage" hash-for-method="VerifyPlaceOrderSuccessMessage">VerifyPlaceOrderSuccessMessage</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Place_Order_Suite -->
@@ -142,10 +151,10 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Place_Order_Suite" class="panel Place_Order_Suite">
-          <div class="suite-Place_Order_Suite-class-passed">
+          <div class="suite-Place_Order_Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">Ecommerce.OnlineShoppingAutomation.EcommerceAutomation</span>
+              <img src="failed.png"/>
+              <span class="class-name">Ecommerce.OnlineShoppingAutomation.SignUpPage</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -153,29 +162,54 @@
                   <a name="VerifyAccountCreated">
                   </a> <!-- VerifyAccountCreated -->
                   <span class="method-name">VerifyAccountCreated</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: #id_gender1
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.12.0&apos;, revision: &apos;249f2a7d1b*&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_381&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [481e4dda-2149-4744-9712-ee739b43eea3, findElement {using=id, value=id_gender1}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.1, moz:accessibilityChecks: false, moz:buildID: 20230927232528, moz:debuggerAddress: 127.0.0.1:18545, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 6408, moz:profile: C:\Users\shariful\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:18545/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 481e4dda-2149-4744-9712-ee739b43eea3
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at Ecommerce.OnlineShoppingAutomation.SignUpPage.VerifyAccountCreated(SignUpPage.java:33)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Place_Order_Suite-class-failed -->
+          <div class="suite-Place_Order_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Ecommerce.OnlineShoppingAutomation.HomePageVisibility</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="VerifyAddressAndOrder">
-                  </a> <!-- VerifyAddressAndOrder -->
-                  <span class="method-name">VerifyAddressAndOrder</span>
+                  <a name="VerifyHomePageVisibility">
+                  </a> <!-- VerifyHomePageVisibility -->
+                  <span class="method-name">VerifyHomePageVisibility</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="VerifyCartPage">
-                  </a> <!-- VerifyCartPage -->
-                  <span class="method-name">VerifyCartPage</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="VerifyHomePage">
-                  </a> <!-- VerifyHomePage -->
-                  <span class="method-name">VerifyHomePage</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Place_Order_Suite-class-passed -->
+          <div class="suite-Place_Order_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Ecommerce.OnlineShoppingAutomation.SignInPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
                   <a name="VerifyLoggedInAsUsername">
@@ -183,6 +217,44 @@
                   <span class="method-name">VerifyLoggedInAsUsername</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Place_Order_Suite-class-passed -->
+          <div class="suite-Place_Order_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Ecommerce.OnlineShoppingAutomation.ReviewAddressAndOrderDetails</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyAddressAndOrder">
+                  </a> <!-- VerifyAddressAndOrder -->
+                  <span class="method-name">VerifyAddressAndOrder</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Place_Order_Suite-class-passed -->
+          <div class="suite-Place_Order_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Ecommerce.OnlineShoppingAutomation.CartPageDisplay</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyCartPage">
+                  </a> <!-- VerifyCartPage -->
+                  <span class="method-name">VerifyCartPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Place_Order_Suite-class-passed -->
+          <div class="suite-Place_Order_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Ecommerce.OnlineShoppingAutomation.PlaceOrderSuccessfulMessage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
                   <a name="VerifyPlaceOrderSuccessMessage">
@@ -204,7 +276,12 @@
 &lt;suite name=&quot;Place Order Suite&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;Ecommerce.OnlineShoppingAutomation.EcommerceAutomation&quot;/&gt;
+      &lt;class name=&quot;Ecommerce.OnlineShoppingAutomation.HomePageVisibility&quot;/&gt;
+      &lt;class name=&quot;Ecommerce.OnlineShoppingAutomation.CartPageDisplay&quot;/&gt;
+      &lt;class name=&quot;Ecommerce.OnlineShoppingAutomation.SignUpPage&quot;/&gt;
+      &lt;class name=&quot;Ecommerce.OnlineShoppingAutomation.SignInPage&quot;/&gt;
+      &lt;class name=&quot;Ecommerce.OnlineShoppingAutomation.ReviewAddressAndOrderDetails&quot;/&gt;
+      &lt;class name=&quot;Ecommerce.OnlineShoppingAutomation.PlaceOrderSuccessfulMessage&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Place Order Suite --&gt;
@@ -218,7 +295,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (1 class)</span>
+                <span class="test-name">Test (6 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -246,34 +323,34 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(6);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'VerifyHomePage')
-data.setCell(0, 2, 'Ecommerce.OnlineShoppingAutomation.EcommerceAutomation')
-data.setCell(0, 3, 27924);
+data.setCell(0, 1, 'VerifyPlaceOrderSuccessMessage')
+data.setCell(0, 2, 'Ecommerce.OnlineShoppingAutomation.PlaceOrderSuccessfulMessage')
+data.setCell(0, 3, 56379);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'VerifyPlaceOrderSuccessMessage')
-data.setCell(1, 2, 'Ecommerce.OnlineShoppingAutomation.EcommerceAutomation')
-data.setCell(1, 3, 26610);
+data.setCell(1, 1, 'VerifyAddressAndOrder')
+data.setCell(1, 2, 'Ecommerce.OnlineShoppingAutomation.ReviewAddressAndOrderDetails')
+data.setCell(1, 3, 54690);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'VerifyAddressAndOrder')
-data.setCell(2, 2, 'Ecommerce.OnlineShoppingAutomation.EcommerceAutomation')
-data.setCell(2, 3, 24489);
+data.setCell(2, 1, 'VerifyCartPage')
+data.setCell(2, 2, 'Ecommerce.OnlineShoppingAutomation.CartPageDisplay')
+data.setCell(2, 3, 30193);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'VerifyAccountCreated')
-data.setCell(3, 2, 'Ecommerce.OnlineShoppingAutomation.EcommerceAutomation')
-data.setCell(3, 3, 24232);
+data.setCell(3, 1, 'VerifyLoggedInAsUsername')
+data.setCell(3, 2, 'Ecommerce.OnlineShoppingAutomation.SignInPage')
+data.setCell(3, 3, 28751);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'VerifyCartPage')
-data.setCell(4, 2, 'Ecommerce.OnlineShoppingAutomation.EcommerceAutomation')
-data.setCell(4, 3, 22682);
+data.setCell(4, 1, 'VerifyAccountCreated')
+data.setCell(4, 2, 'Ecommerce.OnlineShoppingAutomation.SignUpPage')
+data.setCell(4, 3, 27061);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'VerifyLoggedInAsUsername')
-data.setCell(5, 2, 'Ecommerce.OnlineShoppingAutomation.EcommerceAutomation')
-data.setCell(5, 3, 22600);
+data.setCell(5, 1, 'VerifyHomePageVisibility')
+data.setCell(5, 2, 'Ecommerce.OnlineShoppingAutomation.HomePageVisibility')
+data.setCell(5, 3, 11656);
 window.suiteTableData['Place_Order_Suite']= { tableData: data, tableDiv: 'times-div-Place_Order_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
               <div id="times-div-Place_Order_Suite">
               </div> <!-- times-div-Place_Order_Suite -->
             </div> <!-- times-div -->
@@ -299,39 +376,96 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">Ecommerce.OnlineShoppingAutomation.EcommerceAutomation</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
+              <div class="chronological-class-name">Ecommerce.OnlineShoppingAutomation.HomePageVisibility</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
                 <span class="method-name">LaunchBrowser</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- configuration-test before -->
+              </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">VerifyHomePage</span>
-                <span class="method-start">12389 ms</span>
+                <span class="method-name">VerifyHomePageVisibility</span>
+                <span class="method-start">11768 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">23431 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Ecommerce.OnlineShoppingAutomation.CartPageDisplay</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">LaunchBrowser</span>
+                <span class="method-start">26580 ms</span>
+              </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">VerifyCartPage</span>
-                <span class="method-start">40324 ms</span>
+                <span class="method-start">35057 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">65254 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Ecommerce.OnlineShoppingAutomation.SignUpPage</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">LaunchBrowser</span>
+                <span class="method-start">69323 ms</span>
+              </div> <!-- configuration-class before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">VerifyAccountCreated</span>
-                <span class="method-start">63011 ms</span>
+                <span class="method-start">77928 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">105021 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Ecommerce.OnlineShoppingAutomation.SignInPage</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">LaunchBrowser</span>
+                <span class="method-start">107742 ms</span>
+              </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">VerifyLoggedInAsUsername</span>
-                <span class="method-start">87251 ms</span>
+                <span class="method-start">116129 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">144882 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Ecommerce.OnlineShoppingAutomation.ReviewAddressAndOrderDetails</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">LaunchBrowser</span>
+                <span class="method-start">148140 ms</span>
+              </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">VerifyAddressAndOrder</span>
-                <span class="method-start">109857 ms</span>
+                <span class="method-start">156527 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">211220 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Ecommerce.OnlineShoppingAutomation.PlaceOrderSuccessfulMessage</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">LaunchBrowser</span>
+                <span class="method-start">216505 ms</span>
+              </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">VerifyPlaceOrderSuccessMessage</span>
-                <span class="method-start">134353 ms</span>
+                <span class="method-start">224952 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-test after">
+              <div class="configuration-class after">
                 <span class="method-name">CloseBrowser</span>
-                <span class="method-start">160969 ms</span>
-              </div> <!-- configuration-test after -->
+                <span class="method-start">281333 ms</span>
+              </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

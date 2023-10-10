@@ -2,7 +2,16 @@
 <suite name="Place Order Suite">
   <test name="Test">
     <classes>
-           	<class name="Ecommerce.OnlineShoppingAutomation.EcommerceAutomation"/>     
-    </classes>
+    	         		
+      	<class name="Ecommerce.OnlineShoppingAutomation.HomePageVisibility"/>
+		<class name="Ecommerce.OnlineShoppingAutomation.CartPageDisplay"/>
+      	<class name="Ecommerce.OnlineShoppingAutomation.SignUpPage"/>  	
+   		<class name="Ecommerce.OnlineShoppingAutomation.SignInPage"/>
+		<class name="Ecommerce.OnlineShoppingAutomation.ReviewAddressAndOrderDetails"/>    		
+		<class name="Ecommerce.OnlineShoppingAutomation.PlaceOrderSuccessfulMessage"/>
+   		
+    
+	</classes>
+    
   </test> <!-- Test -->
 </suite> <!-- Suite -->

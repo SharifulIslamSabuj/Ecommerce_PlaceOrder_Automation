@@ -3,18 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Ecommerce.OnlineShoppingAutomation.EcommerceAutomation">
+      <class name="Ecommerce.OnlineShoppingAutomation.Ecommerce_VerifyHomePageVisibility">
         <methods>
           <include name="CloseBrowser"/>
-          <include name="VerifyLoggedInAsUsername"/>
-          <include name="VerifyCartPage"/>
-          <include name="VerifyAccountCreated"/>
-          <include name="VerifyAddressAndOrder"/>
-          <include name="VerifyPlaceOrderSuccessMessage"/>
-          <include name="VerifyHomePage"/>
+          <include name="VerifyHomePageVisibility"/>
           <include name="LaunchBrowser"/>
         </methods>
-      </class> <!-- Ecommerce.OnlineShoppingAutomation.EcommerceAutomation -->
+      </class> <!-- Ecommerce.OnlineShoppingAutomation.Ecommerce_VerifyHomePageVisibility -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

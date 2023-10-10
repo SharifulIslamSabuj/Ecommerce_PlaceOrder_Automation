@@ -3,16 +3,13 @@
 <suite name="Failed suite [Place Order Suite]">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="Ecommerce.OnlineShoppingAutomation.EcommerceAutomation">
+      <class name="Ecommerce.OnlineShoppingAutomation.SignUpPage">
         <methods>
           <include name="CloseBrowser"/>
-          <include name="VerifyLoggedInAsUsername"/>
           <include name="VerifyAccountCreated"/>
-          <include name="VerifyAddressAndOrder"/>
-          <include name="VerifyPlaceOrderSuccessMessage"/>
           <include name="LaunchBrowser"/>
         </methods>
-      </class> <!-- Ecommerce.OnlineShoppingAutomation.EcommerceAutomation -->
+      </class> <!-- Ecommerce.OnlineShoppingAutomation.SignUpPage -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Place Order Suite] -->
